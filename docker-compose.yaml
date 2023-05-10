@@ -26,3 +26,5 @@ services:
     build: ./app
     depends_on:
       - mysql
+    volumes:
+      - ./app:/usr/src/app
